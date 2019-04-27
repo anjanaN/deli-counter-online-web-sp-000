@@ -7,5 +7,5 @@ def line(array)
       greeting += "#{array.index(person)+1}. #{person}"
     end
   end
-  return greeting
+  puts greeting
 end
