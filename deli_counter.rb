@@ -8,7 +8,7 @@ def line(array)
     end
     puts greeting
   else
-    puts "The line is currently empty." 
+    puts "The line is currently empty."
   end
 end
 
