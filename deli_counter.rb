@@ -5,4 +5,7 @@ def line(array)
     puts "The line is currently: "
     array.each do |person|
       puts "#{array.index(person)+1}. #{person}"
+    end
+  else
+    puts "The line is currently empty."
 end
