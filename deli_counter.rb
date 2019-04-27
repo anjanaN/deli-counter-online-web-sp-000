@@ -6,6 +6,8 @@ def line(array)
     array.each do |person|
       greeting << " #{array.index(person)+1}. #{person}"
     end
+    puts greeting
+  else
+    puts "The line is currently empty." 
   end
-  puts greeting
 end
